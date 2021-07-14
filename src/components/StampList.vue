@@ -1,25 +1,27 @@
 <template>
-  <v-container
-    width="100%"
-    class="pa-5"
-  >
-    <v-card width="95%" class="ma-auto">
-      <v-card-title>スタンプ一覧</v-card-title>
-      <v-container
-        class="fill-height"
-        fluid
-      >
-        <v-row
-          justify="center"
-          dense
-        >
-          <v-col class="shrink"
-            v-for="card in cards"
-            :key="card"
-          >
-            <img :src="card"/>  
-
-
+  <v-container width="100%" class="pa-2">
+    <v-card width="100%" class="ma-auto" flat>
+      <v-card-title>
+        スタンプ一覧
+        <v-spacer></v-spacer>
+        <!--
+        <v-text-field
+          v-model="search"
+          append-icon="mdi-magnify"
+          label="検索ワード"
+          multi-line
+          hide-details
+        ></v-text-field>
+        -->
+      </v-card-title>
+      <v-card-subtitle>
+        ※Twitter for web等はクリップボードからの画像貼り付けに対応しています。<br />
+        ※右クリック（ロングタップ）して画像をクリップボードにコピーしてください。<br />
+      </v-card-subtitle>
+      <v-container class="fill-height" fluid>
+        <v-row justify="center" dense>
+          <v-col class="shrink" v-for="card in cards" :key="card">
+            <img :src="card" width="100px" height="100px" />
           </v-col>
         </v-row>
       </v-container>
@@ -29,14 +31,21 @@
 
 <script>
 //import Stamp from "@/components/Stamp.vue";
+//import Stamps from "@/stamps.json";
+
 export default {
   data: () => ({
-    cards: ["stamps/yoshi.jpg","stamps/yoshi2.jpg"]
+    search: "",
+    cards: [
+      "/stamps/hako-bimyou.jpg",
+      "/stamps/mame.jpg",
+      "/stamps/yoshi.jpg",
+    ],
   }),
-  components:{
+  components: {
     //Stamp
-  }
-}
+  },
+};
 </script>
 
 <style>
