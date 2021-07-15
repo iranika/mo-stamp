@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "abe6b13fcbb92ef9f737",
+    "revision": "08e14c5493bdb67eb7f2",
     "url": "css/app.b433200f.css"
   },
   {
@@ -224,7 +224,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "af091b68c16486db7388c6811884465e",
+    "revision": "2b394fc633c0772df04367b5158db944",
     "url": "index.html"
   },
   {
