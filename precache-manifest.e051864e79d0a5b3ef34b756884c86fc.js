@@ -228,7 +228,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "5d274c6049935fe6734cc69294036647",
+    "revision": "c50ac9fba9f4625800dee25b20db7b7d",
     "url": "index.html"
   },
   {
