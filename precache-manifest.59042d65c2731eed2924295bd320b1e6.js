@@ -232,10 +232,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/about.b77afcc6.js"
   },
   {
-    "revision": "0fb93deb64bbcc5b8645",
-    "url": "js/about.b77afcc6.js.map"
-  },
-  {
     "revision": "5443e55cf6c2c598bf55a153b26069c3",
     "url": "manifest.json"
   },
