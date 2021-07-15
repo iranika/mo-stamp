@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87fb3d15112d1e58989d",
+    "revision": "0fb93deb64bbcc5b8645",
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "95aaf2a29313a3e3b804",
+    "revision": "abe6b13fcbb92ef9f737",
     "url": "css/app.b433200f.css"
   },
   {
-    "revision": "985e1d94c9fd94e08c70",
-    "url": "css/chunk-vendors.390252c4.css"
+    "revision": "98c3b151c77dd983fbfd",
+    "url": "css/chunk-vendors.d42d1f19.css"
   },
   {
     "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
@@ -228,16 +228,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "c50ac9fba9f4625800dee25b20db7b7d",
+    "revision": "af091b68c16486db7388c6811884465e",
     "url": "index.html"
   },
   {
-    "revision": "87fb3d15112d1e58989d",
-    "url": "js/about.d912a9bd.js"
+    "revision": "0fb93deb64bbcc5b8645",
+    "url": "js/about.b77afcc6.js"
   },
   {
-    "revision": "87fb3d15112d1e58989d",
-    "url": "js/about.d912a9bd.js.map"
+    "revision": "0fb93deb64bbcc5b8645",
+    "url": "js/about.b77afcc6.js.map"
   },
   {
     "revision": "5443e55cf6c2c598bf55a153b26069c3",
