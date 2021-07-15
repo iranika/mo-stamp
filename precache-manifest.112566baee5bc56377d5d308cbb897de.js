@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "605ef9f83c2dc0c34621",
+    "revision": "87fb3d15112d1e58989d",
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "60eee629de5c617f634e",
+    "revision": "95aaf2a29313a3e3b804",
     "url": "css/app.b433200f.css"
   },
   {
@@ -228,16 +228,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "febd8575d5f81064f943bc2585aca93a",
+    "revision": "5d274c6049935fe6734cc69294036647",
     "url": "index.html"
   },
   {
-    "revision": "605ef9f83c2dc0c34621",
-    "url": "js/about.f7ef3e4e.js"
+    "revision": "87fb3d15112d1e58989d",
+    "url": "js/about.d912a9bd.js"
   },
   {
-    "revision": "605ef9f83c2dc0c34621",
-    "url": "js/about.f7ef3e4e.js.map"
+    "revision": "87fb3d15112d1e58989d",
+    "url": "js/about.d912a9bd.js.map"
   },
   {
     "revision": "5443e55cf6c2c598bf55a153b26069c3",
