@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "08e14c5493bdb67eb7f2",
+    "revision": "946410b5e5b3677e882a",
     "url": "css/app.b433200f.css"
   },
   {
@@ -224,7 +224,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "2b394fc633c0772df04367b5158db944",
+    "revision": "b80a1bfda232fc66b877ad15f03e1f2e",
     "url": "index.html"
   },
   {
@@ -356,6 +356,82 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "stamps/Screenshot_2021-07-15-15-13-02-16.jpg"
   },
   {
+    "revision": "3916bcf32de8508e7b23b53e9989a731",
+    "url": "stamps/Screenshot_2021-07-17-18-26-23-03.jpg"
+  },
+  {
+    "revision": "233c6289b607f466b5731c270a5ef69f",
+    "url": "stamps/Screenshot_2021-07-17-18-26-39-50.jpg"
+  },
+  {
+    "revision": "778fd9567383775061a98b4ec247493f",
+    "url": "stamps/Screenshot_2021-07-18-16-32-58-57.jpg"
+  },
+  {
+    "revision": "27e09beac0b9730c730a3d6ada15544d",
+    "url": "stamps/Screenshot_2021-07-18-16-33-15-80.jpg"
+  },
+  {
+    "revision": "81247bcec662d2839d017c4ed0efc213",
+    "url": "stamps/Screenshot_2021-07-18-16-34-22-35.jpg"
+  },
+  {
+    "revision": "c513a8d50254e1b54c136dc8888cd3aa",
+    "url": "stamps/Screenshot_2021-07-18-16-34-32-00.jpg"
+  },
+  {
+    "revision": "c6e0346325241c6ef7b40794403bda16",
+    "url": "stamps/Screenshot_2021-07-18-16-34-58-22.jpg"
+  },
+  {
+    "revision": "5dbf211299374ba8ace309d0aaad01a1",
+    "url": "stamps/Screenshot_2021-07-18-16-35-31-21.jpg"
+  },
+  {
+    "revision": "da5b89ebcd8838fd956e54415fc53637",
+    "url": "stamps/Screenshot_2021-07-18-16-37-09-28.jpg"
+  },
+  {
+    "revision": "12a553a74183c75f8fa463ab98ba745a",
+    "url": "stamps/Screenshot_2021-07-18-16-37-32-58.jpg"
+  },
+  {
+    "revision": "528fbc551543b9cb973afb8c5432eeca",
+    "url": "stamps/Screenshot_2021-07-18-16-39-18-64.jpg"
+  },
+  {
+    "revision": "0601c42273428cb54d2575c15f95f187",
+    "url": "stamps/Screenshot_2021-07-18-16-39-28-93.jpg"
+  },
+  {
+    "revision": "c9c365f11643184732d4b5d288304d5a",
+    "url": "stamps/Screenshot_2021-07-18-16-39-59-87.jpg"
+  },
+  {
+    "revision": "40db6092d7103cc30efdca891b5a7434",
+    "url": "stamps/Screenshot_2021-07-18-16-40-05-36.jpg"
+  },
+  {
+    "revision": "90a0b0e006219eb5715a9a0b7d7717da",
+    "url": "stamps/Screenshot_2021-07-18-16-41-46-12.jpg"
+  },
+  {
+    "revision": "aeada8e94568659d58ee0ceadac6ea07",
+    "url": "stamps/Screenshot_2021-07-18-16-42-00-95.jpg"
+  },
+  {
+    "revision": "1eb00187c3f3deef951d8b5f72e321b3",
+    "url": "stamps/Screenshot_2021-07-18-16-42-39-15.jpg"
+  },
+  {
+    "revision": "6bf5a8f912ec98d7defd6d8c0ab1b957",
+    "url": "stamps/Screenshot_2021-07-18-16-43-15-02.jpg"
+  },
+  {
+    "revision": "14d4eb3f6c2ab7efb29b6cda344d75bc",
+    "url": "stamps/Screenshot_2021-07-18-16-43-24-13.jpg"
+  },
+  {
     "revision": "725b0eac1e0b514d94156d73e5431c72",
     "url": "stamps/aIMG_20210715_011328.jpg"
   },
@@ -414,5 +490,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94fc32f9e460c4665813afa24fdc25fe",
     "url": "stamps/mame.jpg"
+  },
+  {
+    "revision": "88194b147b363c2010f023337dc61dac",
+    "url": "stamps/original_32804d9e-9751-47aa-b5ae-e20df1a369eb_Screenshot_2021-07-17-18-25-08-65.jpg"
   }
 ]);
