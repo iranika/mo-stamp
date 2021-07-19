@@ -21,7 +21,9 @@
       <v-container class="fill-height" fluid>
         <v-row justify="center" dense>
           <v-col class="shrink" v-for="card in cards" :key="card">
-            <img :src="card" width="100px" height="100px" />
+            <div >
+              <img :src="'/stamps/' + card" height="100px"/>
+            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -31,21 +33,22 @@
 
 <script>
 //import Stamp from "@/components/Stamp.vue";
-//import Stamps from "@/stamps.json";
+import Stamps from "@/stamps.json";
 
 export default {
   data: () => ({
     search: "",
-    cards: [
-      "/stamps/hako-bimyou.jpg",
-      "/stamps/mame.jpg",
-      "/stamps/yoshi.jpg",
-    ],
+    cards: Stamps,
   }),
   components: {
     //Stamp
   },
 };
 </script>
+<style scoped>
+.stamps {
+  width: 100px;
+  height: 100px;
+}
 
-<style>
+</style>

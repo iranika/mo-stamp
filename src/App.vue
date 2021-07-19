@@ -51,12 +51,19 @@
     <v-main class="bg">
       <router-view> </router-view>
     </v-main>
+    <v-snackbar bottom right :value="updateExists" :timeout="-1" color="primary">
+      アップデートがあります
+    <v-btn text @click="refreshApp">
+      更新する
+    </v-btn>
+  </v-snackbar>
   </v-app>
 </template>
 
 
 <script lang="ts">
 import Vue from 'vue';
+import update from "./mixins/update";
 
 export default Vue.extend({
   name: 'App',
@@ -66,5 +73,6 @@ export default Vue.extend({
     group: null,
     isTabShow: true,
   }),
+  mixins: [update],
 });
 </script>
