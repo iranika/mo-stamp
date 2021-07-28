@@ -5,7 +5,6 @@
       color="light-blue"
       dark
       dense
-      collapse-on-scroll
       clipped-right
     >
       <template v-slot:img="{ props }">
@@ -23,6 +22,31 @@
         </v-tabs>
       </template>
       <v-spacer></v-spacer>
+      <div v-if="authstore.user.isLogin">
+        
+        <v-menu offset-y>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+              color="primary"
+              icon
+              v-bind="attrs"
+              v-on="on"
+            >
+              <v-avatar>
+                <img :src="authstore.user.photoUrl" />
+              </v-avatar>
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-item>
+              <v-list-item-title @click="signOut()">ログアウト</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </div>
+      <div v-else>
+        <v-btn color="primary" @click="signIn()">Login<v-icon>mdi-twitter</v-icon></v-btn>
+      </div>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" fixed temporary>
       <v-list nav dense>
@@ -64,6 +88,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import update from "./mixins/update";
+//import { AuthStoreModule } from "@/stores/auth";
+import {AuthStore} from "@/stores/auth"
 
 export default Vue.extend({
   name: 'App',
@@ -72,7 +98,17 @@ export default Vue.extend({
     drawer: false,
     group: null,
     isTabShow: true,
+    authstore: AuthStore.getInstance(),
   }),
   mixins: [update],
+  methods:{
+    signIn(){
+      this.authstore.signin();
+    },
+    signOut(){
+      this.authstore.signout();
+    }
+  },
+
 });
 </script>

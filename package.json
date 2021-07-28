@@ -20,7 +20,8 @@
     "vue-mixin-decorator": "^1.2.0",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.4.0",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
@@ -39,6 +40,7 @@
     "typescript": "~4.1.5",
     "vue-cli-plugin-vuetify": "~2.4.1",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.7.0"
+    "vuetify-loader": "^1.7.0",
+    "vuex-module-decorators": "^1.0.1"
   }
 }
