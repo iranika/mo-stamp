@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="light-blue"
+      color="pink"
       dark
       dense
       clipped-right
@@ -10,7 +10,7 @@
       <template v-slot:img="{ props }">
         <v-img
           v-bind="props"
-          gradient="to top right, rgba(0,100,160,.8), rgba(0,160,100,.2)"
+          gradient="to top right, rgba(100,160,100,.2),rgba(100,160,100,.2)"
         ></v-img>
       </template>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -45,7 +45,7 @@
         </v-menu>
       </div>
       <div v-else>
-        <v-btn color="primary" @click="signIn()">Login<v-icon>mdi-twitter</v-icon></v-btn>
+        <v-btn color="light-blue" @click="signIn()">ログイン<v-icon>mdi-twitter</v-icon></v-btn>
       </div>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" fixed temporary>
