@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "a603c21778060445d1d6",
-    "url": "css/app.dca1f712.css"
+    "revision": "37752402f6e417e9876f",
+    "url": "css/app.4dca08b4.css"
   },
   {
     "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
@@ -184,7 +184,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "8c5bef49350f180ea492f02a8599e49d",
+    "revision": "ad5fc72eb505d3678a4dd011e3acd866",
     "url": "index.html"
   },
   {
@@ -198,6 +198,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "robots.txt"
+  },
+  {
+    "revision": "0fd2e8deaa3022e0496959538893efd7",
+    "url": "stamps/2021-07-30 175806.jpg"
+  },
+  {
+    "revision": "7c02c8712735dab328dfaa89ac1d8ead",
+    "url": "stamps/2021-07-30 180048.jpg"
   },
   {
     "revision": "4e3cdd1335e1b8d19e78e9db0aef59a2",
