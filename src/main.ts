@@ -3,7 +3,9 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import vuetify from './plugins/vuetify'
+import {AuthStore} from "@/stores/auth";
 
+AuthStore.getInstance();//先にインスタンス作っておく
 Vue.config.productionTip = false
 
 new Vue({
