@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7fe9aeb937dfd57773b",
+    "revision": "f6d0d2e9dab325a2d232",
     "url": "css/about.8caf5509.css"
   },
   {
-    "revision": "6425d548b8dff1988768",
-    "url": "css/app.4dca08b4.css"
+    "revision": "2356556b9b4d2721272d",
+    "url": "css/app.35faf42b.css"
   },
   {
     "revision": "1ba2ae710d927f13d483fd5d1e548c9b",
@@ -17,19 +17,79 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "1e80841899fb171086253befc604cef7",
+    "url": "img/icons/android-chrome-192x192-iranika-p100.png"
+  },
+  {
+    "revision": "f130a0b70e386170cf6f011c0ca8c4f4",
     "url": "img/icons/android-chrome-192x192.png"
   },
   {
     "revision": "d9e4861c86249c8141db09d098dc4337",
+    "url": "img/icons/android-chrome-512x512-iranika-p100.png"
+  },
+  {
+    "revision": "0ff1bc4d14e5c9abcacba7c600d97814",
     "url": "img/icons/android-chrome-512x512.png"
   },
   {
+    "revision": "845a39478d0e2d4d5d32a092de2de250",
+    "url": "img/icons/android-chrome-maskable-192x192.png"
+  },
+  {
+    "revision": "2695f5feb66cdb0c6f09d0e415824cf9",
+    "url": "img/icons/android-chrome-maskable-512x512.png"
+  },
+  {
+    "revision": "936d6e411cabd71f0e627011c3f18fe2",
+    "url": "img/icons/apple-touch-icon-120x120.png"
+  },
+  {
+    "revision": "1a034e64d80905128113e5272a5ab95e",
+    "url": "img/icons/apple-touch-icon-152x152.png"
+  },
+  {
+    "revision": "c43cd371a49ee4ca17ab3a60e72bdd51",
+    "url": "img/icons/apple-touch-icon-180x180.png"
+  },
+  {
+    "revision": "9a2b5c0f19de617685b7b5b42464e7db",
+    "url": "img/icons/apple-touch-icon-60x60.png"
+  },
+  {
+    "revision": "af28d69d59284dd202aa55e57227b11b",
+    "url": "img/icons/apple-touch-icon-76x76.png"
+  },
+  {
+    "revision": "66830ea6be8e7e94fb55df9f7b778f2e",
+    "url": "img/icons/apple-touch-icon.png"
+  },
+  {
     "revision": "0e5aca53f152b3567973abe6fcc5ffbf",
+    "url": "img/icons/favicon-16x16-iranika-p100.png"
+  },
+  {
+    "revision": "4bb1a55479d61843b89a2fdafa7849b3",
     "url": "img/icons/favicon-16x16.png"
   },
   {
     "revision": "f6de1982c392e6ea6e205334ef65bbe2",
+    "url": "img/icons/favicon-32x32-iranika-p100.png"
+  },
+  {
+    "revision": "98b614336d9a12cb3f7bedb001da6fca",
     "url": "img/icons/favicon-32x32.png"
+  },
+  {
+    "revision": "b89032a4a5a1879f30ba05a13947f26f",
+    "url": "img/icons/msapplication-icon-144x144.png"
+  },
+  {
+    "revision": "058a3335d15a3eb84e7ae3707ba09620",
+    "url": "img/icons/mstile-150x150.png"
+  },
+  {
+    "revision": "4e857233cbd3bb2d2db4f78bed62a52f",
+    "url": "img/icons/safari-pinned-tab.svg"
   },
   {
     "revision": "725b0eac1e0b514d94156d73e5431c72",
@@ -184,12 +244,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/stamps/yoshi.jpg"
   },
   {
-    "revision": "4ee380e4c4c5f7f5e4d2f83213a3b61b",
+    "revision": "594599801389fa06261ac117b1b67bd3",
     "url": "index.html"
   },
   {
-    "revision": "d7fe9aeb937dfd57773b",
-    "url": "js/about.c2973857.js"
+    "revision": "f6d0d2e9dab325a2d232",
+    "url": "js/about.cebe67c2.js"
   },
   {
     "revision": "5443e55cf6c2c598bf55a153b26069c3",
@@ -208,6 +268,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "stamps/2021-07-30 180048.jpg"
   },
   {
+    "revision": "c3a83fc38e770e61b600add251a0e79c",
+    "url": "stamps/2021-07-31 065708.jpg"
+  },
+  {
     "revision": "4e3cdd1335e1b8d19e78e9db0aef59a2",
     "url": "stamps/IMG_20210715_011601.jpg"
   },
@@ -218,6 +282,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a6baec29762c5f097e6dbe33ea202bd",
     "url": "stamps/IMG_20210715_011824.jpg"
+  },
+  {
+    "revision": "fad88f80997428d88f1dd47a184f7dc7",
+    "url": "stamps/Sc001.jpg"
+  },
+  {
+    "revision": "8d7980b096524ba45517d16b44f3a8d3",
+    "url": "stamps/Sc002.jpg"
+  },
+  {
+    "revision": "ea9ef6bc1e9f266e1437f156416d3503",
+    "url": "stamps/Sc003.jpg"
+  },
+  {
+    "revision": "82848c13511c45c40d2efc610f2923c2",
+    "url": "stamps/Sc004.jpg"
+  },
+  {
+    "revision": "722ea3d75f6a68556a74ad43b9309438",
+    "url": "stamps/Sc005.jpg"
+  },
+  {
+    "revision": "51e8d99c036a778c6a46c0a712afacab",
+    "url": "stamps/Sc006.jpg"
   },
   {
     "revision": "0328cb798ea3238a8c64bff37d228d0f",
