@@ -5,7 +5,6 @@
       color="pink"
       dark
       dense
-      collapse-on-scroll
       clipped-right
     >
       <template v-slot:img="{ props }">
